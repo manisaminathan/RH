@@ -100,7 +100,7 @@
     width: 12rem;
     padding: 0 4rem;
     bottom: 0;
-    right: 5%;
+    left: 10%;
     text-align: center;
     z-index: 10;
 }
@@ -205,7 +205,7 @@
  .slider-container .slide-content.txt {
 	 /* display: table; */
 	 padding: 8rem;
-	 background: #dd3545;
+	 background: #770b0b;
 }
 
  .slider-container .slide-content .txt-wrapper {
@@ -398,3 +398,185 @@
 	 float: right;
 }
  
+
+
+.megamenu {
+    position: static
+}
+
+.megamenu .dropdown-menu {
+    background: none;
+    border: none;
+    width: 100%
+}
+
+
+.navbox h6 {
+    padding: 16px 30px 0;
+    /* font-family: "proxima-nova", sans-serif; */
+    margin-bottom: 30px;
+}
+
+.link-text {
+    padding: 10px 0 5px;
+    color: #000000;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+    /* font-family: "proxima-nova", sans-serif; */
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbox h6  > a:before {
+    background: #ffe52b;
+}
+.link-text:hover:before {
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.megamenu  .dropdown-menu{
+ box-shadow: none;
+}
+.link-text:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: #ffe52b;
+    width: 0;
+    height: 4px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    /* transform: translateX(-50%); */
+}
+.nav-link:before {
+	transition: 300ms;
+	height: 5px;
+	content: "";
+	position: absolute;
+	background-color: #ffe52b;
+}
+.nav-link-fade-up::before {
+	/* width: 100%; */
+	bottom: 5px;
+	opacity: 0;
+  }
+  
+  .nav-link-fade-up:hover::before {
+	bottom: 10px;
+	opacity: 1;
+  }
+.link-text:after {
+    content: "›";
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 18px;
+}
+
+.navbox > div > div  > ul > li > a{
+	font-weight: inherit !important;
+}
+.navbox > div > div > ul > li.heading {
+    padding: 2px 30px;
+}
+ .navbox > div > div > ul > li {
+    padding: 0 30px;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 700;
+    background: transparent;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.navbox ol,.navbox ul,.navbox li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbox > div > div > ul > li:not(.heading):hover:before {
+    opacity: 1;
+}
+.navbox > div > div > ul > li:not(.heading):hover {
+    background: #cecece;
+}
+.navbox h6 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+.navbox > div > div  > ul > li > a {
+    font-size: 14px;
+    padding: 14px 0;
+    color: #000000;
+    display: block;
+    line-height: 1.14;
+}
+
+.navbox > div > div > ul > li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background: #000000;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.navbox > div > div > ul > li > a .description {
+    font-size: 12px;
+    font-weight: 400;
+    color: #666666;
+    display: block;
+    line-height: 1.4;
+    margin-top: 7px;
+}
+
+
+.navbox > div > div.navbx_lcol > ul > li {
+    padding: 0;
+    border: 2px solid #999999;
+    margin-bottom: 11px;
+}
+.navbox  > div > div.navbx_lcol > ul > li:hover > a {
+    color: #FFFFFF;
+}
+
+.navbox  > div> div.navbx_lcol > ul > li > a {
+    padding: 15px 15px 20px;
+}
+.navbox  > div> div.navbx_lcol > ul > li:hover {
+    background-color: #000000;
+    border-color: transparent;
+}
+@media (min-width: 1200px)
+{
+	.navbx_lcol{
+		padding-right: 42px;
+	}
+}
+
+ a:hover {
+    outline: 0;
+    text-decoration: none;
+}
+ a {
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+    
+}

@@ -32,7 +32,7 @@
         <!-- ========== Start Navbar ========== -->
         <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
           
-            <div class="container">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
                 <button
                     class="navbar-toggler"
@@ -47,26 +47,103 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#slider">Home
+                            <a class="nav-link nav-link-fade-up" href="#slider">Home
                                 <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
+                            <a class="nav-link nav-link-fade-up" href="#about">About</a>
+                        </li>
+                        <li class="nav-item dropdown megamenu">
+                          <a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link nav-link-fade-up">Products Menu</a>
+                          <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+                              <div class="container">
+                                  <div class="navbox bg-white rounded-0 m-0 shadow-sm">
+                                    <h6><a href="/products/" class="link-text">Products Overview</a></h6>
+                                    <div class="row">
+                                      <div class="col-lg-4">
+                                        <ul class="list-unstyled">
+                                            <li class="heading">Open Source Platforms</li>
+                                            <li>
+                                              <a href="/products/RedHorizon/">
+                                                <span class="title">RedHorizon</span>
+                                                <span class="description">The #1 open source machine learning platform.</span>                                  </a>
+                                            </li>
+                                            <li>
+                                              <a href="/products/RedHorizon-sparkling-water/">
+                                                <span class="title">Sparkling Water</span>
+                                                <span class="description">RedHorizon open source integration with Spark.</span>                                  </a>
+                                            </li>
+                                            <li>
+                                              <a href="/products/RedHorizon-automl/">
+                                                <span class="title">RedHorizon AutoML</span>
+                                                <span class="description">Scalable AutoML in RedHorizon.</span>                                  </a>
+                                            </li>
+                                        </ul>
+                                      </div>
+                                      <div class="col-lg-4">
+                                        <ul>
+                                          <li class="heading">Enterprise Platforms</li>
+                                            <!-- Single link with description -->
+                                              <li>
+                                                <a href="/products/RedHorizon-driverless-ai/">
+                                                  <span class="title">RedHorizon Driverless AI</span>
+                                                  <span class="description">The automatic machine learning (AutoML) platform.</span>                                  </a>
+                                              </li>
+                                            <!-- Single link with description -->
+                                              <li>
+                                                <a href="/RedHorizon-q">
+                                                  <span class="title">RedHorizon Q</span>
+                                                  <span class="description">Make your own AI apps.</span>                                  </a>
+                                              </li>
+                                            <!-- Single link with description -->
+                                               <li>
+                                                <a href="/enterprise-support/">
+                                                  <span class="title">Enterprise Support</span>
+                                                  <span class="description">Get help and technology from the experts in RedHorizon and access to Enterprise Steam.</span>                                  </a>
+                                              </li>
+                                            <!-- Single link with description -->
+                                              <li>
+                                                <a href="/product-cloud/">
+                                                  <span class="title">Enterprise Puddle</span>
+                                                  <span class="description">Find out about machine learning in any cloud and RedHorizon.ai Enterprise Puddle</span>                                  </a>
+                                              </li>
+                                            <!-- Single link with description -->
+                                              <li>
+                                                <a href="/product-RedHorizon-autodoc/">
+                                                  <span class="title">RedHorizon AutoDoc</span>
+                                                  <span class="description">Automatically generates documentation of models in minutes.</span>                                  </a>
+                                              </li>
+                                        </ul>
+                                      </div>
+                                      <div class="col-lg-4 navbx_lcol">
+                                        <ul>
+                                          <!-- Single link box with description -->
+                                            <li>
+                                              <a href="/try-driverless-ai/">
+                                                <span class="title">Getting Started</span>
+                                                <span class="description">Take RedHorizon Driverless AI for a Test Drive.</span>                                </a>
+                                            </li>
+                                          <!-- Single link box with description -->
+                                            <li>
+                                              <a href="/download/">
+                                                <span class="title">Downloads</span>
+                                                <span class="description">Download the latest and greatest that RedHorizon.ai has to offer.</span>                                </a>
+                                            </li>
+                                      </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                          </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#features">Features</a>
+                            <a class="nav-link nav-link-fade-up" href="#benefits">Solutions</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#benefits">Benefits</a>
+                            <a class="nav-link nav-link-fade-up" href="#team">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#team">Team</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#price">Price</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link nav-link-fade-up" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -279,7 +356,7 @@
                             </div>
                           </div>
                           <div class="slide-content img">
-                            <img src="img/health.jpg" alt="" />
+                            <img src="https://www.hiddenbrains.com/public/local-cdn/images/experties/experties_banners_1.jpg" alt="" />
                           </div>
                         </div>  
                       <div class="slide" data-order="2">
@@ -308,7 +385,7 @@
                             </div>
                           </div>
                           <div class="slide-content img">
-                            <img src="img/reals.jpg" alt="" />
+                            <img src="https://www.hiddenbrains.com/public/local-cdn/images/experties/experties_banners_2.jpg" alt="" />
                           </div>
                         </div>  
                       <div class="slide " data-order="3">
@@ -338,7 +415,7 @@
                             </div>
                           </div>
                           <div class="slide-content img">
-                            <img src="img/game.jpg" alt="" />
+                            <img src="https://www.hiddenbrains.com/public/local-cdn/images/experties/experties_banners_3.jpg" alt="" />
                           </div>
                         </div>
                       <div class="slide " data-order="4">
@@ -367,7 +444,7 @@
                             </div>
                           </div>
                           <div class="slide-content img">
-                            <img src="img/ret.jpg" alt="" />
+                            <img src="https://www.hiddenbrains.com/public/local-cdn/images/experties/experties_banners_4.jpg" alt="" />
                           </div>
                         </div>
                       <div class="slide " data-order="5">
@@ -396,7 +473,7 @@
                             </div>
                           </div>
                           <div class="slide-content img">
-                            <img src="img/soc.jpg" alt="" />
+                            <img src="https://www.hiddenbrains.com/public/local-cdn/images/experties/experties_banners_5.jpg" alt="" />
                           </div>
                         </div>
                     </div>
@@ -1529,13 +1606,13 @@
                       <ul>
                         <li>
                           <div class="cont-icn-blk"> <span><i class="fa fa-envelope"></i></span><i>Email</i></div>
-                          <a href="mailto:biz@hiddenbrains.com">biz@hiddenbrains.com</a></li>
+                          <a href="mailto:biz@Redhorizon.com">biz@redhorizon.com</a></li>
                         <li>
                           <div class="cont-icn-blk"><span class="hangout"><i class="icon ion-android-hangout"></i></span><i>Hangouts</i> </div>
-                          <a href="mailto:biz@hiddenbrains.com">biz@hiddenbrains.com</a></li>
+                          <a href="mailto:biz@Redhorizon.com">biz@Redhorizon.com</a></li>
                         <li>
                           <div class="cont-icn-blk"><span class="skype"><i class="fab fa-skype"></i></span><i>Skype</i></div>
-                          hiddenbrains</li>
+                          Redhorizon</li>
                       </ul>
                     </div>
                   </div>
@@ -1649,7 +1726,7 @@
   
     <div class="floating-container">
       <div class="action">
-        <a data-balloon="Live Support" data-balloon-pos="left" href="mailto:biz@hiddenbrains.com"><img src="https://www.hiddenbrains.com/public/local-cdn/images/h-hb-mail.svg" class="email-icon" alt="">
+        <a data-balloon="Live Support" data-balloon-pos="left" href="mailto:biz@redhorizon.com"><img src="https://www.hiddenbrains.com/public/local-cdn/images/h-hb-mail.svg" class="email-icon" alt="">
         <span class="live-toggle">
             Email
         </span></a>
@@ -1673,7 +1750,7 @@
     <div class="zoom">
         <div class="zoom-menu more zoom-btn-sm"> <a class="zoom-fab zoom-btn-large" id="zoomBtn"><i class="btm-rt-que"><img src="https://www.hiddenbrains.com/public/local-cdn/images/f-info-icon.svg" alt=""></i><i class="btm-rt-arw fa fa-angle-right"></i></a>
         <span><a href="tel:+91-989-802-1433"><i><img src="https://www.hiddenbrains.com/public/local-cdn/images/f-phone-icon.svg" alt=""></i></a></span>
-        <span><a href="mailto:biz@hiddenbrains.com"><i><img src="https://www.hiddenbrains.com/public/local-cdn/images/f-mail-icon.svg" style="height:20px;" alt=""></i></a></span>
+        <span><a href="mailto:biz@redhorizon.com"><i><img src="https://www.hiddenbrains.com/public/local-cdn/images/f-mail-icon.svg" style="height:20px;" alt=""></i></a></span>
         <span><a href="http://api.whatsapp.com/send?phone=919898021433&text=Hello+HB+!!!"><i><img src="https://www.hiddenbrains.com/public/local-cdn/images/f-whatsapp-chat.svg" alt=""></i></a></span>
         <span><a href="javascript://void(0)" class="phplive_btn_1453967008"><i><img src="https://www.hiddenbrains.com/public/local-cdn/images/f-chat-icon.svg" alt=""></i></a></span>
         <!-- <span><a href="#"><i><img src="https://www.hiddenbrains.com/public/local-cdn/images/f-inquery-icon.svg" alt=""></i></a></span> -->
@@ -1760,19 +1837,19 @@ function updateEndPoints(index) {
         
         var top = $(window).scrollTop();
          if(top>=100){
-           $('.navbar').css('background','#050126'); 
+           $('.navbar').css('background','#1e1e1e'); 
          }
          
          else 
-             if($('.navbar').css('background','#050126')){
+             if($('.navbar').css('background','#1e1e1e')){
   
-                 $('.navbar').css('background','#050126'); 
+                 $('.navbar').css('background','#1e1e1e'); 
              }
      });
 
 
      //About us fill
-     const colors = ['#dd3545','#bd2836','#e23e4d'];
+     const colors = ['#770b0b','#f3c010','#ff700a'];
     var blobs = document.querySelectorAll("#background path");
 
     blobs.forEach(blob => {

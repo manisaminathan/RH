@@ -1378,18 +1378,7 @@ button, input, select, textarea {
     font-size: inherit;
     line-height: inherit;
 }
-a {
-    color: #337ab7;
-    text-decoration: none;
-}
-a:focus, a:hover {
-    color: #23527c;
-    text-decoration: underline;
-}
-a:focus {
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px;
-}
+
 figure {
     margin: 0;
 }
@@ -3158,7 +3147,7 @@ tbody.collapse.in {
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
     color: #fff;
     text-decoration: none;
-    background-color: #337ab7;
+    /* background-color: #337ab7; */
     outline: 0;
 }
 .dropdown-menu>.disabled>a, .dropdown-menu>.disabled>a:focus, .dropdown-menu>.disabled>a:hover {
@@ -9186,9 +9175,7 @@ img {
 a {
     color: #000;
 }
-a:hover {
-    color: red;
-}
+
 .sprite {
     background: url(../images/sprite.png) no-repeat;
 }
@@ -9494,7 +9481,7 @@ a:hover {
 }
 .home-banner .left-banner-slider {
     height: 100vh;
-    background: #eee;
+    background: #770b0b;
     width: 50%;
     position: absolute;
     left: 0;
@@ -9544,7 +9531,7 @@ a:hover {
     line-height: 4rem;
     text-transform: uppercase;
     word-wrap: break-word;
-    color: #dd3545 !important;
+    color: #fff !important;
     text-align: left;
 }
 .slider .slider-txt p {
@@ -9552,7 +9539,7 @@ a:hover {
     font-size: 21px;
     line-height: 24px;
     font-family: 'proxima_nova_ltlight';
-    color: #050126 !important;
+    color: #fff !important;
     text-align: left;
 }
 .animation-element {
@@ -9645,7 +9632,7 @@ a:hover {
     width: 100%;
     background-size: 100%}
 .blog-box h3 {
-    color: #dd3545;
+    color: #770b0b;
     font-size: 16px;
     margin: 0;
     padding-bottom: 20px;
@@ -9742,10 +9729,10 @@ ul.quick-links, ul.quick-links li {
     height: 56px;
 }
 .blog-section li .blog-txt p a:hover {
-    color: #dd3545;
+    color: #770b0b;
 }
 .front.face.active.active .blog-txt p a, .front.face.active:hover .blog-txt p a {
-    color: #dd3545;
+    color: #770b0b;
 }
 ul.quick-links {
     margin: 10px 0 0;
@@ -9761,7 +9748,7 @@ ul.quick-links li a {
     color: #000;
 }
 ul.quick-links li a:hover {
-    color: #dd3545;
+    color: #770b0b;
 }
 .frt-two-sco {
     padding: 5px 0;
@@ -9819,7 +9806,7 @@ ul.quick-links li a:hover {
     text-align: right;
 }
 .alliances h4 {
-    color: #dd3545;
+    color: #770b0b;
     font-size: 16px;
     font-family: proxima_nova_rgbold;
     font-weight: 400;
@@ -10014,7 +10001,7 @@ ul.alliance-box li {
 }
 .cont-us-box .contact-info p {
     font-size: 40px;
-    color: #dd3545;
+    color: #770b0b;
     font-family: proxima_nova_ltlight;
     font-weight: 400;
     margin-bottom: 0;
@@ -10023,7 +10010,7 @@ ul.alliance-box li {
 .cont-us-box .contact-info a.strt-project {
     width: 295px;
     height: 64px;
-    background-color: #dd3545;
+    background-color: #770b0b;
     display: inline-block;
     letter-spacing: .2em;
     color: #fff;
@@ -10047,7 +10034,7 @@ ul.alliance-box li {
     right: 0;
     width: 0%;
     color: #fff;
-    background: #050126;
+    background: #000;
     -webkit-transition: width .2s ease-in-out;
     -moz-transition: width .2s ease-in-out;
     -o-transition: width .2s ease-in-out;
@@ -10311,12 +10298,12 @@ ul.alliance-box li {
 .induse-sec-rgt li.active .icon-circul, .induse-sec-rgt li:hover .icon-circul {
     cursor: pointer;
     color: #fff;
-    border: 1px solid #050126;
-    background-color: #050126;
+    border: 1px solid #1e1e1e;
+    background-color: #1e1e1e;
 }
 .induse-sec-rgt li.active em, .induse-sec-rgt li:hover em {
     opacity: 1;
-    color: #050126;
+    color: #770b0b;
     cursor: pointer;
 }
 .induse-sec-rgt li.active .icon-1, .induse-sec-rgt li:hover .icon-1 {
@@ -10355,12 +10342,12 @@ ul.alliance-box li {
 .induse-sec-rgt li.animate .icon-circul {
     cursor: pointer;
     color: #fff;
-    border: 1px solid #dd3545;
-    background-color: #dd3545;
+    border: 1px solid #770b0b;
+    background-color: #770b0b;
 }
 .induse-sec-rgt li.animate em {
     opacity: 1;
-    color: #050126;
+    color: #770b0b;
 }
 .induse-sec-rgt li.animate .icon-circul .icon-1 {
     background-position: 0 -50px;
@@ -10421,7 +10408,7 @@ ul.alliance-box li {
 }
 a.btn-explore {
     position: relative;
-    border: 1px solid #dd3545;
+    border: 1px solid #fff;
     border-radius: 25px;
     min-width: 130px;
     height: 40px;
@@ -10429,7 +10416,7 @@ a.btn-explore {
     display: inline-block;
     text-align: center;
     font-size: 18px;
-    color: #dd3545;
+    color: #fff;
     font-family: proxima_nova_rgbold;
     font-weight: 400;
     margin-top: 20px;
@@ -10454,7 +10441,7 @@ a.btn-explore i {
     transition-duration: .8s;
     -webkit-transition-duration: .8s;
     -moz-transition-duration: .8s;
-    color: #dd3545;
+    color: #fff;
 }
 a.btn-explore:hover {
     opacity: .8;
@@ -10505,7 +10492,7 @@ a.btn-explore:hover.btn-explore i {
     position: relative;
     display: inline-block;
     -webkit-background-clip: text;
-    background-image: url(../img/3.jpg);
+    background-image: url(https://www.hiddenbrains.com/public/local-cdn/images/mask-img.jpg);
     font-size: 125px;
     text-transform: uppercase;
     line-height: 120px;
@@ -10869,23 +10856,23 @@ a.btn-explore:hover.btn-explore i {
     background: #a8a8a8;
 }
 .service-list li a.active, .service-list li a:hover {
-    color: #dd3545;
+    color: #770b0b;
 }
 .service-list li a:hover:before {
-    background: #dd3545;
+    background: #770b0b;
 }
 .swiper-pagination:hover .service-list {
     opacity: 1;
 }
 .left-banner-slider a.btn-explore {
-    border: 1px solid #dd3545;
-    color: #dd3545;
+    border: 1px solid #fff;
+    color: #fff;
     font-weight: 400;
     margin-left: 0;
     margin-top: 25px;
 }
 .left-banner-slider a.btn-explore i {
-    color: #dd3545;
+    color: #fff;
 }
 svg.golden {
     position: absolute;
@@ -10936,27 +10923,27 @@ svg.golden {
     position: absolute;
 }
 .top-banner-default.default-0 {
-    background: url(../img/fina.jpg) no-repeat center center;
+    background: url(https://www.hiddenbrains.com/public/local-cdn/images/banner-ani/h-b-enterpries.jpg) no-repeat center center;
     background-size: cover;
 }
 .top-banner-default.default-1 {
-    background: url(../img/1.jpg) no-repeat center center;
+    background: url(https://www.hiddenbrains.com/public/local-cdn/images/banner-ani/h-b-hire-dedicated-team.jpg) no-repeat center center;
     background-size: cover;
 }
 .top-banner-default.default-2 {
-    background: url(../img/2.jpg) no-repeat center center;
+    background: url(https://www.hiddenbrains.com/public/local-cdn/images/banner-ani/iot.jpg) no-repeat center center;
     background-size: cover;
 }
 .top-banner-default.default-3 {
-    background: url(../img/mu.jpg) no-repeat center center;
+    background: url(https://www.hiddenbrains.com/public/local-cdn/images/banner-ani/h-b-blockchain.jpg) no-repeat center center;
     background-size: cover;
 }
 .top-banner-default.default-4 {
-    background: url(../img/real.jpg) no-repeat center center;
+    background: url(https://www.hiddenbrains.com/public/local-cdn/images/banner-ani/h-b-awards.jpg) no-repeat center center;
     background-size: cover;
 }
 .top-banner-default.default-5 {
-    background: url(../img/retail.jpg) no-repeat center center;
+    background: url(https://www.hiddenbrains.com/public/local-cdn/images/banner-ani/h-b-globalevent.jpg) no-repeat center center;
     background-size: cover;
 }
 .top-banner-default.active {
@@ -10989,8 +10976,8 @@ svg.golden {
 .induse-sec-rgt li.animate .icon-circul {
     cursor: pointer;
     color: #fff;
-    border: 1px solid #dd3545;
-    background-color: #dd3545;
+    border: 1px solid #770b0b;
+    background-color: #770b0b;
 }
 .induse-sec-rgt li.animate .icon-circul .svg path {
     fill: #fff;
@@ -11069,7 +11056,7 @@ to {
     font-weight: 300;
 }
 .zoom-fab:hover {
-    background: #dd3545de;
+    background: #770b0bde;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .14), 0 1px 7px 0 rgba(0, 0, 0, .12), 0 3px 1px -1px rgba(0, 0, 0, .2);
     color: #fff;
 }
@@ -11302,7 +11289,7 @@ to {
     padding: 0 10px 0 18px;
     font-family: proxima_novaregular;
     font-weight: 400;
-    background: #dd3545;
+    background: #770b0b;
     line-height: 46px;
 }
 #divback label {
@@ -11320,7 +11307,7 @@ to {
     margin-right: 5px;
 }
 .top-sticky.is-fixed .burger-menu {
-    background: #dd3545;
+    background: #770b0b;
     padding: 6px 15px;
     width: 60px;
     height: 60px;
@@ -11355,7 +11342,7 @@ to {
     margin: auto;
 }
 .section__more1 p a:hover {
-    background: #dd3545;
+    background: #770b0b;
 }
 .cont-us-box .contact-number li {
     color: #000;
@@ -11761,7 +11748,7 @@ a.btn-explore {
     margin-left: 20px;
     margin-right: 20px;
     font-size: 14px;
-    color: #dd3545;
+    color: #770b0b;
     font-family: proxima_nova_rgbold;
     font-weight: 400;
 }
@@ -12062,7 +12049,7 @@ a.btn-explore {
     overflow: hidden;
     box-shadow: -7px 0 9px 1px rgba(0, 0, 0, .1);
     font-size: 16px;
-    color: #dd3545;
+    color: #770b0b;
     font-family: proxima_novaregular;
     font-weight: 400;
 }
@@ -12104,7 +12091,7 @@ a.btn-explore {
 .need-help a span {
     float: right;
     width: 75%;
-    color: #dd3545;
+    color: #770b0b;
     font-size: 15px;
     padding-right: 10px;
     font-weight: 600;
@@ -12160,7 +12147,7 @@ a.btn-explore {
     text-transform: uppercase;
 }
 .covid-home-btn a:hover {
-    background: #dd3545;
+    background: #770b0b;
     color: #fff;
 }
 .covid-collapse {
@@ -12182,7 +12169,7 @@ a.btn-explore {
     line-height: 26px;
 }
 .covid-act:hover {
-    background: #dd3545;
+    background: #770b0b;
     color: #fff;
 }
 @media screen and (min-width:200px) and (max-width:767px) {
@@ -12334,11 +12321,11 @@ ul.main-menu li a:hover::after.get-quote-header {
     padding-right: 20px;
 }
 .get-quote-header a:hover {
-    background: #dd3545!important;
+    background: #770b0b!important;
     color: #fff!important;
 }
 .hamburger {
-    background: #dd3545;
+    background: #770b0b;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -12417,7 +12404,7 @@ ul.main-menu li a:hover::after.get-quote-header {
     width: auto;
 }
 .menu-opener.active, .menu-opener:hover {
-    background: #dd3545;
+    background: #770b0b;
 }
 .menu-opener-inner.active {
     background: 0 0;
@@ -12577,7 +12564,7 @@ ul.main-menu li a:hover::after.get-quote-header {
     font-size: 14px;
 }
 .top-sticky.is-fixed ul.main-menu li a:hover {
-    color: #dd3545!important;
+    color: #770b0b!important;
 }
 .top-sticky.is-fixed .topmenu {
     height: 60px;
@@ -12591,7 +12578,7 @@ ul.main-menu li a:hover::after.get-quote-header {
     line-height: 60px;
 }
 .top-sticky.is-fixed .get-quote-header a:hover {
-    background: #dd3545;
+    background: #770b0b;
     color: #fff!important;
 }
 .top-sticky.is-fixed .menu-opener {
@@ -12995,7 +12982,7 @@ template {
 .expertise-box .slider-wrapper {
     width: 100%;
     height: 100%;
-    background: #dd3545;
+    background: #770b0b;
     padding: 0;
     margin: 0 0 10px 0;
     position: relative;
@@ -13178,7 +13165,7 @@ template {
     position: absolute;
     border: 0;
     bottom: 0;
-    background: #050126;
+    background: #000;
     height: 25%;
     padding: 20px;
     -moz-transition: height 1s ease;
@@ -13222,7 +13209,7 @@ template {
     position: absolute;
     border: 0;
     bottom: 0;
-    background: #060227;
+    background: #000;
     height: 91%;
     padding: 20px;
     -moz-transition: height 1s ease;
@@ -13330,7 +13317,7 @@ template {
 }
 .expertise-box .green-inquery-box a:hover {
     color: #fff;
-    background: #dd3545;
+    background: #770b0b;
 }
 .expertise-box .experties-heading {
     display: block;
@@ -13561,7 +13548,7 @@ template {
 }
 }@media screen and (min-width:768px) and (max-width:1023px) {
     #works {
-    background: #dd3545;
+    background: #770b0b;
 }
 .expertise-box .fixed_div.collapsed_mode {
     display: none;
@@ -13598,7 +13585,7 @@ template {
 }
 }@media screen and (min-width:200px) and (max-width:767px) {
     #works {
-    background: #dd3545;
+    background: #770b0b;
     text-align: center;
 }
 .expertise-box .slider {
@@ -13642,7 +13629,7 @@ template {
 }
 }@media screen and (min-width:320px) and (max-width:320px) {
     #works {
-    background: #dd3545;
+    background: #770b0b;
     text-align: center;
 }
 .expertise-box .slider {
@@ -13941,7 +13928,7 @@ template {
     margin: 6px auto;
 }
 .owl-page.active {
-    background: #dd3545;
+    background: #770b0b;
     border: 8px solid #fff;
     width: 32px;
     height: 32px;
@@ -13949,7 +13936,7 @@ template {
 }
 .owl-page.active span {
     margin: 0 auto;
-    border: 1px solid #dd3545;
+    border: 1px solid #770b0b;
 }
 .owl-nav {
     display: none;
@@ -14191,7 +14178,7 @@ template {
     height: 8px;
     display: inline-block;
     border-radius: 100%;
-    background: #dd3545;
+    background: #000;
     opacity: .2;
 }
 button.swiper-pagination-bullet {
@@ -15184,7 +15171,7 @@ button.swiper-pagination-bullet {
     transform: rotateX(180deg);
 }
 .blog-section li:hover .front.face p, .blog-section li:hover .front.face p span {
-    color: #dd3545;
+    color: #770b0b;
 }
 .scrollsections,  body,  html  {
      position:  relative;
@@ -15245,7 +15232,7 @@ body,  html  {
      -ms-transition:  all .3s ease 0s;
      transition:  all .3s ease 0s }
 .scrollsections-menuitem.active-scrollsection  {
-     background:  #dd3545;
+     background:  #770b0b;
      cursor:  default }
 .c-art-10, .c-art-contact {
     display: block;
@@ -15658,13 +15645,13 @@ html.w-mod-js [data-ix=cs-thumb], html.w-mod-js [data-ix=cs-thumb-2] {
     transition: all 1s;
 }
 .our-service-pagi-box span.active:before, .pager-nav span:hover:before {
-    background: #dd3545;
+    background: #770b0b;
     width: 60px;
     transition: all 1s;
     cursor: pointer;
 }
 .pager-nav span.active:hover:before {
-    background: #dd3545;
+    background: #770b0b;
     width: 30px;
     transition: all 1s;
     cursor: pointer;
@@ -15818,7 +15805,7 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
     font-family: proxima_nova_rgbold;
     font-weight: 400;
     font-size: 30px;
-    color: #dd3545;
+    color: #770b0b;
     line-height: normal;
     text-align: center;
     padding: 0;
@@ -15843,7 +15830,7 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
     -moz-transition: all .4s;
     transition: all .4s;
     margin: 15px auto 0;
-    background-color: #dd3545;
+    background-color: #770b0b;
     display: block;
     position: relative;
     z-index: 1;
@@ -15861,7 +15848,7 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
     top: 0;
     right: 0;
     width: 0%;
-    background: #050126;
+    background: #000;
     -webkit-transition: width .2s ease-in-out;
     -moz-transition: width .2s ease-in-out;
     -o-transition: width .2s ease-in-out;
@@ -15900,7 +15887,7 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
     -moz-transition: all .4s;
     transition: all .4s;
     margin: 15px auto 0;
-    background-color: #dd3545;
+    background-color: #770b0b;
     display: block;
     position: relative;
     z-index: 1;
@@ -16080,7 +16067,7 @@ input::-webkit-input-placeholder, input:-moz-placeholder, input::-moz-placeholde
     color: #333;
 }
 .quick-form .privacy-policy-txt a {
-    color: #dd3545;
+    color: #770b0b;
 }
 .quick-form .i-checks {
     padding-left: 30px;
@@ -16797,7 +16784,7 @@ ul.main-menu li a {
 }
 .left-banner-slider .swiper-pagination .swiper-pagination-bullet:before {
     width: 30px;
-    background: #dd3545;
+    background: #770b0b;
     height: 2px;
 }
 .left-banner-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active:before, .left-banner-slider .swiper-pagination .swiper-pagination-bullet:hover:before {
@@ -17253,7 +17240,7 @@ ul.quick-links li {
     display: block;
 }
 .hamburger {
-    background: #dd354500;
+    background: #770b0b00;
 }
 #quote-carousel3 .carousel-inner {
     width: 90%}
@@ -17348,7 +17335,7 @@ ul.quick-links li {
 }
 .left-banner-slider .swiper-pagination .swiper-pagination-bullet:before {
     width: 30px;
-    background: #dd3545;
+    background: #770b0b;
     height: 2px;
 }
 .left-banner-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active:before, .left-banner-slider .swiper-pagination .swiper-pagination-bullet:hover:before {
@@ -17747,7 +17734,7 @@ ul.alliance-box li {
 .menu-inner {
     display: block;
     width: 100%;
-    background: #dd3545;
+    background: #770b0b;
     float: left;
     padding: 0;
     margin: 0;
@@ -21632,7 +21619,7 @@ button.close {
      font-size: 16px;
     line-height: 16px;
     font-family:  'open_sansbold';
-    color: #dd3545;
+    color: #770b0b;
     letter-spacing: 13px;
 }
 
@@ -21653,7 +21640,7 @@ button.close {
      font-size:  18px;
      line-height:  30px;
      text-transform:  uppercase;
-     background:  #dd3545;
+     background:  #770b0b;
      color:  #fff;
      font-weight:  normal;
      border:  0px;
@@ -21768,7 +21755,7 @@ button.close {
      -moz-transition:  all .4s;
      transition:  all .4s;
      margin:  15px auto 0;
-     background-color:  #dd3545;
+     background-color:  #770b0b;
      display:  block;
      position:  relative;
      z-index:  1 }
