@@ -54,8 +54,8 @@
                             <a class="nav-link nav-link-fade-up" href="#about">About</a>
                         </li>
                         <li class="nav-item dropdown megamenu">
-                          <a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link nav-link-fade-up">Products Menu</a>
-                          <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+                          <a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Products Menu</a>
+                          <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0 animate slideIn">
                               <div class="container">
                                   <div class="navbox bg-white rounded-0 m-0 shadow-sm">
                                     <h6><a href="/products/" class="link-text">Products Overview</a></h6>
@@ -1975,6 +1975,39 @@ var timer_time = 2000;
 }
 
 
+
+const $dropdown = $(".dropdown");
+const $dropdownToggle = $(".dropdown-toggle");
+const $dropdownMenu = $(".dropdown-menu");
+const showClass = "show";
+
+$(window).on("load resize", function() {
+  if (this.matchMedia("(min-width: 768px)").matches) {
+    $dropdown.hover(
+      function() {
+        const $this = $(this);
+        $this.addClass(showClass);
+        $this.find($dropdownToggle).attr("aria-expanded", "true");
+        $this.find($dropdownMenu).addClass(showClass);
+      },
+      function() {
+        const $this = $(this);
+        $this.removeClass(showClass);
+        $this.find($dropdownToggle).attr("aria-expanded", "false");
+        $this.find($dropdownMenu).removeClass(showClass);
+      }
+    );
+  } else {
+    // $dropdown.off("mouseenter mouseleave");
+  }
+});
+
+
+// $('.navbar .dropdown').hover(function() {
+//     $(this).find('.dropdown-menu').first().stop(true, true).slideToggle(400);
+//     }, function() {
+//     $(this).find('.dropdown-menu').first().stop(true, true).slideToggle(400)
+//     });
 
        </script>
     </body>

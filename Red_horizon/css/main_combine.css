@@ -10895,7 +10895,7 @@ svg.golden {
 }
 .navbar-brand {
     height: auto;
-    padding: 17px 15px;
+    padding: 0 !important;
 }
 .top-sticky.is-fixed .navbar-brand {
     background: #fff;

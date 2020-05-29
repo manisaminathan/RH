@@ -458,23 +458,7 @@
     transition: all 0.3s ease-in-out;
     /* transform: translateX(-50%); */
 }
-.nav-link:before {
-	transition: 300ms;
-	height: 5px;
-	content: "";
-	position: absolute;
-	background-color: #ffe52b;
-}
-.nav-link-fade-up::before {
-	/* width: 100%; */
-	bottom: 5px;
-	opacity: 0;
-  }
-  
-  .nav-link-fade-up:hover::before {
-	bottom: 10px;
-	opacity: 1;
-  }
+
 .link-text:after {
     content: "›";
     display: inline-block;
@@ -504,6 +488,15 @@
     padding: 0;
     margin: 0;
     list-style: none;
+}
+.navbar .nav-item:hover .navbox {
+    opacity: 1;
+    visibility: visible;
+    top: 50px;
+    pointer-events: inherit;
+    -webkit-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
 }
 
 .navbox > div > div > ul > li:not(.heading):hover:before {
@@ -580,3 +573,90 @@
     cursor: pointer;
     
 }
+
+.dropdown-toggle::after {
+	transition: transform 0.15s linear; 
+	display: none;
+ }
+ 
+ .show.dropdown .dropdown-toggle::after {
+   transform: translateY(10px);
+ }
+
+ .shadow-sm{
+	box-shadow: 2px 2px 15px 0 #212529 !important;
+ }
+
+ a.nav-link
+{
+    position: relative;
+}
+
+a.nav-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffe52b;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+a.nav-link:hover:before {
+	visibility: visible;
+	transform: scaleX(1);
+  }
+
+ .navbar .nav-item .nav-link{
+	height: 75px;
+	padding-top: 30px;
+	z-index: 99999;
+ }
+ 
+
+ @media (min-width: 992px) {
+	.animate {
+	  animation-duration: 0.3s;
+	  -webkit-animation-duration: 0.3s;
+	  animation-fill-mode: both;
+	  -webkit-animation-fill-mode: both;
+	}
+  }
+  
+  @keyframes slideIn {
+	0% {
+	  transform: translateY(1rem);
+	  opacity: 0;
+	}
+	100% {
+	  transform:translateY(0rem);
+	  opacity: 1;
+	}
+	0% {
+	  transform: translateY(1rem);
+	  opacity: 0;
+	}
+  }
+  
+  @-webkit-keyframes slideIn {
+	0% {
+	  -webkit-transform: transform;
+	  -webkit-opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateY(0);
+	  -webkit-opacity: 1;
+	}
+	0% {
+	  -webkit-transform: translateY(1rem);
+	  -webkit-opacity: 0;
+	}
+  }
+  
+  .slideIn {
+	-webkit-animation-name: slideIn;
+	animation-name: slideIn;
+  }
