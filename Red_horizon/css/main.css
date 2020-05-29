@@ -110,20 +110,29 @@ a {
 --------------------------------------------------*/
 .navbar {
     padding:  0 !important;
-    /* background: linear-gradient(135deg, rgba(22, 37, 43, 0) 0%, rgba(22, 37, 43, 0) 100%); */
-    background: #1e1e1e;
+    background: linear-gradient(135deg, rgba(22, 37, 43, 0) 0%, rgba(22, 37, 43, 0) 100%);
+    /* background: #1e1e1e; */
+}
+.navbar-dark .navbar-brand {
+    color: #f00;
+    font-weight: 500;
+    font-family: proxima_novasemibold, sans-serif;
+    font-size: 45px;
+}
+.navbar-dark .navbar-brand:hover {
+    color: #f00;
 }
 .navbar img {
-   height: 40px;
+   height: 45px;
 }
 .navbar .nav-item {
     padding: 0;
     margin: 0;
 }
 .navbar .nav-item .nav-link {
-    color: #ffffff;
+    color: #fff;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     margin-left: 30px;
 }
 

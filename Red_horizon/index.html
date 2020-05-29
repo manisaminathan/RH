@@ -33,7 +33,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
           
             <div class="container-fluid" style="padding-right: 0;">
-                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+                <a class="navbar-brand" href="#"><img src="img/logo2.png" alt="">RedHorizon</a>
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -1848,7 +1848,7 @@ function updateEndPoints(index) {
          else 
              if($('.navbar').css('background','#1e1e1e')){
   
-                 $('.navbar').css('background','#1e1e1e'); 
+                 $('.navbar').css('background','linear-gradient(135deg, rgba(22, 37, 43, 0) 0%, rgba(22, 37, 43, 0) 100%)'); 
              }
      });
 
@@ -2020,7 +2020,14 @@ $(function(){
       $("#header-search-bar").focus();
   });
  
- 
+  $(window).scroll(function(){
+      $("searchbar").hide();
+  })
+
+  $('.nav-item .nav-link').hover(function (e) {
+    $("#searchbar").css('display','none');
+  });
+
 });
        </script>
     </body>
