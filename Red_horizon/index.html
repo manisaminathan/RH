@@ -28,11 +28,11 @@
     <body>
         <!-- Page Loading -->
         <div class="se-pre-con"></div>
-
+    
         <!-- ========== Start Navbar ========== -->
         <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
           
-            <div class="container-fluid">
+            <div class="container-fluid" style="padding-right: 0;">
                 <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
                 <button
                     class="navbar-toggler"
@@ -142,37 +142,42 @@
                         <li class="nav-item">
                             <a class="nav-link nav-link-fade-up" href="#team">Team</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-fade-up" href="#contact">Contact</a>
+                        <li class="nav-item dropdown srch-nav">
+                          <a class="srch-link" id="searchtoggl" href="#"> <span class="hb-search-icon1 hb-search-icon-home"><img id="imgsvg-search" src="https://www.hiddenbrains.com/public/local-cdn/images/search_icon.svg" class="svg" alt="Hidden Brains" /></span> </a> 
+                        </li>
+                        <li class="nav-item get-quote-nav">
+                          <a class="get-quote" href="#contact">Get Quote</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+       
         <!-- ========== End Navbar ========== -->
-
-        <!-- ========== Start Slider ========== -->
-        <!-- <section class="slider d-flex align-items-center" id="slider">
-            <div id="particles-js"></div>
-            <div class="container">
-                <div class="row d-flex align-items-center mt-60">
-                    <div class="col-lg-6">
-                        <div class="text">
-                            <h1 class="h1-w mb-20">Best way to chat to your customers using bux</h1>
-                            <p class="p-w mb-30">Why I say old chap that is spiffing off his nut arse pear
-                                shaped plastered Jeffrey bodge barney some dodgy chav cockup sloshed up the duff
-                                starkers cheeky bugger</p>
-                            <a href="#" class="btn-white d-inline-block">Get Started</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="image d-flex justify-content-lg-end">
-                            <img src="https://via.placeholder.com/480x480" alt="slider-phone" class="img-fluid upDown">
-                        </div>
-                    </div>
-                </div>
+        <div id="searchbar" class="clearfix">
+          <div class="queryContainer__2yhSTtR5FatKDcrbPGtwzE">
+            <div class="contentContainer__2hNipbbqs3wX_aJ0xS9qxf displayHorizontal__3BhcJ0jt7WItbis5Yt93MC">
+              <svg class="searchIcon__3DYnis4JcFpm852pU04aSW" height="48" width="48" fill="currentColor" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Search Icon</title>
+                <path d="M9.583 2a7.583 7.583 0 0 1 7.584 7.583 7.601 7.601 0 0 1-1.82 4.935l.315.315h.921l5.834 5.834-1.75 1.75-5.834-5.834v-.921l-.315-.315a7.601 7.601 0 0 1-4.935 1.82A7.583 7.583 0 0 1 9.583 2zm0 2.333a5.228 5.228 0 0 0-5.25 5.25 5.228 5.228 0 0 0 5.25 5.25 5.228 5.228 0 0 0 5.25-5.25 5.228 5.228 0 0 0-5.25-5.25z" fill-rule="nonzero"></path>
+              </svg>
+              <form class="search__qlEjCq-oWosYl4Y8AOj5G" id="search-form" action="/search">
+                <input name="query" type="search" id="header-search-bar" placeholder="e.g. Python, Data Science, JavaScript" class="input__3SzraVeCEuzSCKugdQibL6" value="">
+              </form>
             </div>
-        </section> -->
+          </div>
+          <div class="contentContainer__2hNipbbqs3wX_aJ0xS9qxf suggestionContainer__2l5aYGrCNYwO6MwfTnZi5k">
+          
+              <h3 class="popular-srch" >Popular Searches</h3>
+            <div class="displayHorizontal__3BhcJ0jt7WItbis5Yt93MC suggestionList__29_MjvIt8wZdMJrXJi7czR">
+              <button class="basicBtn__3xa1QN1wgQsDZ1jCBiNCJ_ btn__2v-TLC9Odx5KkacwG29i-V btn-brand-blue__48ZpguZW52j4-WT322Ide flat__1P46os5ArVG5G28Uwdk86R" data-btn="true">Data Science</button>
+              <button class="basicBtn__3xa1QN1wgQsDZ1jCBiNCJ_ btn__2v-TLC9Odx5KkacwG29i-V btn-brand-blue__48ZpguZW52j4-WT322Ide flat__1P46os5ArVG5G28Uwdk86R" data-btn="true">Python</button>
+              <button class="basicBtn__3xa1QN1wgQsDZ1jCBiNCJ_ btn__2v-TLC9Odx5KkacwG29i-V btn-brand-blue__48ZpguZW52j4-WT322Ide flat__1P46os5ArVG5G28Uwdk86R" data-btn="true">Web Development</button>
+              <button class="basicBtn__3xa1QN1wgQsDZ1jCBiNCJ_ btn__2v-TLC9Odx5KkacwG29i-V btn-brand-blue__48ZpguZW52j4-WT322Ide flat__1P46os5ArVG5G28Uwdk86R" data-btn="true">HTML</button>
+              <button class="basicBtn__3xa1QN1wgQsDZ1jCBiNCJ_ btn__2v-TLC9Odx5KkacwG29i-V btn-brand-blue__48ZpguZW52j4-WT322Ide flat__1P46os5ArVG5G28Uwdk86R" data-btn="true">Java</button></div></div>
+        </div>
+       
+        
         <section id="home" class="scrollsections">
             <div class="home-banner">
               <div class="left-banner-slider">
@@ -2003,12 +2008,20 @@ $(window).on("load resize", function() {
 });
 
 
-// $('.navbar .dropdown').hover(function() {
-//     $(this).find('.dropdown-menu').first().stop(true, true).slideToggle(400);
-//     }, function() {
-//     $(this).find('.dropdown-menu').first().stop(true, true).slideToggle(400)
-//     });
-
+$(function(){
+  var $searchlink = $('#searchtoggl span img');
+  var $searchbar  = $('#searchbar');
+  
+  $('#searchtoggl').on('click', function(e){
+    e.preventDefault();
+      $searchbar.slideToggle(300, function(){
+        // callback after search bar animation
+      });
+      $("#header-search-bar").focus();
+  });
+ 
+ 
+});
        </script>
     </body>
 </html>
