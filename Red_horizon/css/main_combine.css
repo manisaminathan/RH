@@ -10157,7 +10157,7 @@ ul.alliance-box li {
     position: relative;
 }
 .induse-sec:before {
-    content: 'Industries';
+    content: 'Industries We Serve';
     position: absolute;
     left: 8%;
     top: 94%;
@@ -10257,7 +10257,7 @@ ul.alliance-box li {
     font-size: 14px;
     color: #ffc107;
     font-family: proxima_novaregular, Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     opacity: 0;
     font-style: normal;
     line-height: 14px;
@@ -10455,7 +10455,7 @@ a.btn-explore:hover.btn-explore i {
 .our-sec {
     background: #f7f7f7;
     overflow: hidden;
-    padding: 140px 0 100px;
+    padding: 140px 0 140px;
     height: 100vh;
     position: relative;
 }
@@ -10495,7 +10495,7 @@ a.btn-explore:hover.btn-explore i {
     background-image: url(https://www.hiddenbrains.com/public/local-cdn/images/mask-img.jpg);
     font-size: 125px;
     text-transform: uppercase;
-    line-height: 120px;
+    line-height: 110px;
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -10883,7 +10883,7 @@ svg.golden {
     font-size: 100px;
 }
 .clip-second {
-    margin-top: 65px;
+    margin-top: 40px;
 }
 .sidebar-container.pinned {
     height: 140px;
@@ -12325,7 +12325,7 @@ ul.main-menu li a:hover::after.get-quote-header {
     color: #fff!important;
 }
 .hamburger {
-    background: #770b0b;
+    background: #f3c010;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -12337,18 +12337,18 @@ ul.main-menu li a:hover::after.get-quote-header {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    width: 83px;
+    width: 70px;
     height: 83px;
     cursor: pointer;
     margin: 0 auto;
-    padding: 29px 27px 27px;
+    padding: 29px 20px 27px;
 }
 .hamburger div {
     -ms-flex-item-align: end;
     align-self: flex-end;
     height: 2px;
     width: 100%;
-    background: #fff;
+    background: #000;
 }
 .menu-opener, .top-menu {
     height: 83px;
@@ -12907,7 +12907,6 @@ svg:not(:root) {
     overflow: hidden;
 }
 button, input, optgroup, select, textarea {
-    font-family: sans-serif;
     font-size: 100%;
     line-height: 1.15;
     margin: 0;
@@ -15765,7 +15764,7 @@ html.w-mod-js [data-ix=cs-thumb], html.w-mod-js [data-ix=cs-thumb-2] {
     left: 0;
 }
 button, button:hover, input, textarea {
-    outline: 0!important;
+    outline: 0;
     border: none;
     background: 0 0;
     cursor: pointer;
@@ -15773,9 +15772,7 @@ button, button:hover, input, textarea {
 iframe {
     border: none!important;
 }
-input:focus, textarea:focus {
-    border-color: transparent!important;
-}
+
 input:focus::-webkit-input-placeholder, input:focus:-moz-placeholder, input:focus::-moz-placeholder, input:focus:-ms-input-placeholder {
     color: transparent;
 }
